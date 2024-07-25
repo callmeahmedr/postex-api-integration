@@ -9,7 +9,7 @@
  */
 function callAPIAndGetStatus($trackingNumber) {
     // API URL for tracking
-    $url = 'https://api.postex.pk/services/integration/api/order/v1/track-order/' . urlencode($trackingNumber);
+    $endPoint = 'https://api.postex.pk/services/integration/api/order/v1/track-order/' . urlencode($trackingNumber);
 
     // API token for authentication
     $token = 'YOUR_API_TOKEN'; // Replace with your actual API token
@@ -17,7 +17,7 @@ function callAPIAndGetStatus($trackingNumber) {
     // Initialize cURL
     $curl = curl_init();
     curl_setopt_array($curl, [
-        CURLOPT_URL => $url,
+        CURLOPT_URL => $endPoint,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_HTTPHEADER => [
             'token: ' . $token
