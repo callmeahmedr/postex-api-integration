@@ -13,6 +13,9 @@ These scripts are based on the PostEx Merchant API Integration Guide V4.1.9. For
 ## Features
 - **Order Creation**: Efficiently create new orders and manage their details.
 - **Bulk Tracking**: Track multiple orders at once and get detailed status updates.
+- **Creating Pickup/Return Address**: Creates a new pickup or return address in the PostEx system.
+- **Getting List of Operational Cities**: Fetch Operational Cities from PostEx system
+- **Fetch Un-booked Orders**: Retrieves un-booked order details from the PostEx API within a specified date range and optionally filtered by city.
 
 ## Dependencies
 - PHP 7.4 or higher
