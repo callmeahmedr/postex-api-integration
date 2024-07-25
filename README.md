@@ -6,16 +6,25 @@ Welcome to the PostEx API Integration repository! 🚀 This project provides PHP
 
 ## Overview
 This repository includes PHP scripts designed to interact with the PostEx API, specifically covering endpoints for:
-1. **Creating Orders**: Submit new orders to the PostEx system.
-2. **Tracking Orders**: Retrieve the status of multiple orders in bulk.
+
+- **create-order**
+  - create-single-order.php
+  - create-bulk-orders.php
+- **track-order**
+  - single-order-tracking.php
+  - bulk-order-tracking.php
+- **create-pickup-address.php**
+- **get-operational-city.php**
+- **get-unbooked-orders.php**
+
 These scripts are based on the PostEx Merchant API Integration Guide V4.1.9. For detailed API documentation, refer to the [Merchant API Integration Guide](https://merchant-api-guide.s3.ap-south-1.amazonaws.com/PostEx-COD_API_Integration_Guide_V4.1.9.pdf).
 
 ## Features
-- **Order Creation**: Efficiently create new orders and manage their details.
-- **Bulk Tracking**: Track multiple orders at once and get detailed status updates.
+- **Order Creation**: Create single or bulk orders with their details.
+- **Order Tracking**: Track single or multiple orders at once and get detailed status updates.
 - **Creating Pickup/Return Address**: Creates a new pickup or return address in the PostEx system.
 - **Getting List of Operational Cities**: Fetch Operational Cities from PostEx system
-- **Fetch Un-booked Orders**: Retrieves un-booked order details from the PostEx API within a specified date range and optionally filtered by city.
+- **Fetch Un-booked Orders**: Retrieves un-booked order details within a specified date range and optionally filtered by city.
 
 ## Dependencies
 - PHP 7.4 or higher
