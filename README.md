@@ -1,5 +1,3 @@
-![PostEx Logo](https://postex.pk/images/PostEx.png)
-
 # PostEx API Integration
 
 Welcome to the PostEx API Integration repository! 🚀 This project provides PHP scripts to seamlessly integrate with the PostEx API for handling both order creation and tracking functionalities.
