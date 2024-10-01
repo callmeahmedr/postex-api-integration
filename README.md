@@ -35,4 +35,4 @@ We welcome suggestions and contributions to improve this integration! If you hav
 ## Contact
 For any questions or support, please contact [ahmed@etarbiyat.com](mailto:ahmed@etarbiyat.com).
 
-Happy Coding!
+Happy Coding ❤️
