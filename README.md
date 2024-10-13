@@ -32,7 +32,4 @@ These scripts are based on the PostEx Merchant API Integration Guide V4.1.9. For
 ## Contribution
 We welcome suggestions and contributions to improve this integration! If you have ideas or enhancements, feel free to open an issue or submit a pull request.
 
-## Contact
-For any questions or support, please contact [ahmed@etarbiyat.com](mailto:ahmed@etarbiyat.com).
-
 Happy Coding ❤️
